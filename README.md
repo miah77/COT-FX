@@ -1,24 +1,21 @@
 # COT FX Prototype Dashboard
 
-A prototype Streamlit dashboard to visualize Commitment of Traders (COT) data for major currency futures and FX pairs.
+This is a prototype Streamlit dashboard that visualizes Commitment of Traders (COT) data for major currency pairs.
 
 ## Features
-- Fetches COT data (with fallback to random sample data if unavailable)
-- Calculates a 52-week COT Index
-- Interactive chart with Net Position & COT Index
-- CSV download
+- Displays COT index trends for major FX pairs.
+- Uses sample data for offline/demo mode.
+- Can be adapted to fetch live CFTC data.
 
-## Installation
+## Running Locally
 ```bash
 pip install -r requirements.txt
-```
-
-## Run
-```bash
 streamlit run COT_FX_Prototype_Dashboard.py
 ```
 
-## Deploy to Streamlit Cloud
-1. Push this repo to GitHub
-2. Go to [Streamlit Cloud](https://streamlit.io/cloud)
-3. Create a new app and select `COT_FX_Prototype_Dashboard.py` as the entry point
+## Deploying to Streamlit Cloud
+1. Upload these files to a public GitHub repo.
+2. Go to https://streamlit.io/cloud and create a new app.
+3. Select this repo and set the entrypoint file to `COT_FX_Prototype_Dashboard.py`.
+4. Deploy and enjoy.
+
