@@ -1,14 +1,5 @@
 {
-  "smtp": {
-    "host": "smtp.gmail.com",
-    "port": 465,
-    "from_email": "your-email@gmail.com",
-    "user": "your-email@gmail.com",
-    "password": "APP_PASSWORD_OR_SMTP_PASSWORD"
-  },
-  "alerts": {
-    "email_to": "you@yourdomain.com",
-    "from_name": "Bliss Tide Alerts",
-    "discord_webhook": ""
-  }
+    "email_from": "your_email@gmail.com",
+    "email_password": "your_gmail_app_password",
+    "email_to": "recipient_email@gmail.com"
 }
